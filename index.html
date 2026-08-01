@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acrobacia - Aladdin 2026</title>
+    <!-- Fonte do Google para dar um toque elegante e temático -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Paleta de cores baseada na logo */
+        :root {
+            --red-circus: #ab3e3b;
+            --blue-circus: #4aaee4;
+            --yellow-circus: #f7ca18;
+            --bg-color: #fcf6e9;
+            --text-dark: #333;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--bg-color);
+            background-image: radial-gradient(var(--bg-color) 40%, #ebdcb8 100%);
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: var(--red-circus);
+            border-bottom: 8px solid var(--yellow-circus);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .logo-img {
+            max-width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            color: #fff;
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            color: var(--red-circus);
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+
+        /* Grid de Escala (Cards) */
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 2px solid var(--blue-circus);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .card-header {
+            background-color: var(--blue-circus);
+            color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-header h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .badge {
+            background-color: var(--yellow-circus);
+            color: var(--red-circus);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+
+        .person-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .person-list li {
+            padding: 12px 20px;
+            border-bottom: 1px solid #eee;
+            font-size: 0.95em;
+        }
+
+        .person-list li:last-child {
+            border-bottom: none;
+        }
+
+        .person-list li:before {
+            content: "🎪";
+            margin-right: 10px;
+            font-size: 0.9em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Certifique-se de que a imagem file.jpeg está na mesma pasta que o index.html no GitHub -->
+        <img src="file.jpeg" alt="Logo Acroarte" class="logo-img">
+        <h1>Acrobacia - Aladdin 2026</h1>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Escala de Apresentações</h2>
+        
+        <div class="schedule-grid">
+            
+            <!-- Cards gerados com base na planilha -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>14/08</h3>
+                    <span class="badge">16 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Fabio Emmanoel arruda Amorim</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Fabio Emmanoel Arruda Amorim</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>15/08</h3>
+                    <span class="badge">15 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Fabio Emmanoel Arruda Amorim</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>16/08</h3>
+                    <span class="badge">15 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Fabio Emmanoel arruda Amorim</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>17/08</h3>
+                    <span class="badge">15 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Fabio Emmanoel arruda Amorim</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Fabio Emmanoel Arruda Amorim</li><li>Paulo Isaque</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>18/08</h3>
+                    <span class="badge">13 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Paulo Isaque</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>19/08</h3>
+                    <span class="badge">15 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Fabio Emmanoel arruda Amorim</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Fabio Emmanoel Arruda Amorim</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>20/08</h3>
+                    <span class="badge">14 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>21/08</h3>
+                    <span class="badge">15 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Fabio Emmanoel arruda Amorim</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Fabio Emmanoel Arruda Amorim</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>22/08</h3>
+                    <span class="badge">13 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h3>23/08</h3>
+                    <span class="badge">16 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Vitto Vieira Duarte</li><li>Fabio Emmanoel arruda Amorim</li><li>Rogério da Silva Martins filho</li><li>Miguel Guedes</li><li>Rafaela negreiros Bonettes</li><li>Jefferson</li><li>Marcelo balby</li><li>Lara Contreras</li><li>Hélio Goat</li><li>Rafaela</li><li>Levi Claudiano Cavalcante</li><li>Luisana kamila chacin sanchez</li><li>Jefferson</li><li>Fabio Emmanoel Arruda Amorim</li><li>Paulo Isaque</li><li>Daniel Hall</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Acroarte. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
