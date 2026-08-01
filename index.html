@@ -109,40 +109,22 @@
             list-style: none;
             padding: 0;
             margin: 0;
-            counter-reset: list-counter; /* Adicionado para criar a numeração fixa */
         }
 
         .person-list li {
             padding: 12px 20px;
             border-bottom: 1px solid #eee;
             font-size: 0.95em;
-            display: flex;
-            align-items: center;
         }
 
         .person-list li:last-child {
             border-bottom: none;
         }
 
-        /* Marcador unindo o Emoji da tenda + Número Fixo */
         .person-list li:before {
-            counter-increment: list-counter;
-            content: "🎪 " counter(list-counter) ". ";
+            content: "🎪";
             margin-right: 10px;
             font-size: 0.9em;
-            font-weight: 700;
-            color: var(--red-circus);
-            min-width: 35px; /* Mantém o alinhamento dos nomes certinho */
-        }
-
-        /* Estilo para quem divide a posição */
-        .revezamento {
-            color: var(--blue-circus);
-            font-weight: 600;
-        }
-
-        .fixo {
-            color: var(--text-dark);
         }
 
         footer {
@@ -173,16 +155,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Lara Contreras</li>
-                    <li class="revezamento">Daniel Hall</li>
-                    <li class="revezamento">Fabio Emmanoel Arruda Amorim</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Lara</li><li>Luisana</li><li>Daniel</li><li>Rogério</li><li>Hélio</li><li>Jefferson</li><li>Levi</li><li>Vitto</li><li>Miguel</li><li>Fabio</li>
                 </ul>
             </div>
             
@@ -192,16 +165,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Rafaela negreiros Bonettes</li>
-                    <li class="revezamento">Paulo Isaque</li>
-                    <li class="revezamento">Jefferson</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Luisana</li><li>Lara</li><li>Daniel</li><li>Hélio</li><li>Rogério</li><li>Levi</li><li>Fabio</li><li>Miguel</li><li>Jefferson</li><li>Vitto</li>
                 </ul>
             </div>
             
@@ -211,16 +175,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Lara Contreras</li>
-                    <li class="revezamento">Paulo Isaque</li>
-                    <li class="revezamento">Fabio Emmanoel Arruda Amorim</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Lara</li><li>Luisana</li><li>Paulo</li><li>Rogério</li><li>Levi</li><li>Fabio</li><li>Hélio</li><li>Marcelo</li><li>Vitto</li><li>Miguel</li>
                 </ul>
             </div>
             
@@ -230,16 +185,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Rafaela negreiros Bonettes</li>
-                    <li class="revezamento">Daniel Hall</li>
-                    <li class="revezamento">Jefferson</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Luisana</li><li>Rafaela</li><li>Daniel</li><li>Fabio</li><li>Rogério</li><li>Miguel</li><li>Jefferson</li><li>Marcelo</li><li>Levi</li><li>Hélio</li>
                 </ul>
             </div>
             
@@ -249,16 +195,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Lara Contreras</li>
-                    <li class="revezamento">Daniel Hall</li>
-                    <li class="revezamento">Jefferson</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Lara</li><li>Luisana</li><li>Daniel</li><li>Vitto</li><li>Hélio</li><li>Miguel</li><li>Marcelo</li><li>Levi</li><li>Jefferson</li><li>Rogério</li>
                 </ul>
             </div>
             
@@ -268,16 +205,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Rafaela negreiros Bonettes</li>
-                    <li class="revezamento">Paulo Isaque</li>
-                    <li class="revezamento">Fabio Emmanoel Arruda Amorim</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Rafaela</li><li>Luisana</li><li>Paulo</li><li>Vitto</li><li>Levi</li><li>Miguel</li><li>Marcelo</li><li>Rogério</li><li>Hélio</li><li>Fabio</li>
                 </ul>
             </div>
             
@@ -287,16 +215,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Lara Contreras</li>
-                    <li class="revezamento">Paulo Isaque</li>
-                    <li class="revezamento">Jefferson</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Luisana</li><li>Rafaela</li><li>Paulo</li><li>Rogério</li><li>Jefferson</li><li>Vitto</li><li>Marcelo</li><li>Hélio</li><li>Levi</li><li>Miguel</li>
                 </ul>
             </div>
             
@@ -306,16 +225,7 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixo">Luisana kamila chacin sanchez</li>
-                    <li class="revezamento">Rafaela negreiros Bonettes</li>
-                    <li class="revezamento">Paulo Isaque</li>
-                    <li class="revezamento">Fabio Emmanoel Arruda Amorim</li>
-                    <li class="fixo">Hélio Goat</li>
-                    <li class="fixo">Marcelo balby</li>
-                    <li class="fixo">Rogério da Silva Martins filho</li>
-                    <li class="fixo">Levi Claudiano Cavalcante</li>
-                    <li class="fixo">Miguel Guedes</li>
-                    <li class="fixo">Vitto Vieira Duarte</li>
+                    <li>Rafaela</li><li>Luisana</li><li>Paulo</li><li>Marcelo</li><li>Vitto</li><li>Rogério</li><li>Hélio</li><li>Fabio</li><li>Levi</li><li>Miguel</li>
                 </ul>
             </div>
             
@@ -325,7 +235,25 @@
                     <span class="badge">10 pessoas</span>
                 </div>
                 <ul class="person-list">
-                    <li class="fixOlá! Como esta é uma nova conversa, eu não tenho acesso às mensagens anteriores ou às alterações que você acabou de solicitar. 
+                    <li>Luisana</li><li>Rafaela</li><li>Paulo</li><li>Levi</li><li>Jefferson</li><li>Marcelo</li><li>Miguel</li><li>Vitto</li><li>Hélio</li><li>Rogério</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <div class="card-header">
+                    <h3>23/08</h3>
+                    <span class="badge">10 pessoas</span>
+                </div>
+                <ul class="person-list">
+                    <li>Luisana</li><li>Lara</li><li>Daniel</li><li>Marcelo</li><li>Vitto</li><li>Jefferson</li><li>Fabio</li><li>Miguel</li><li>Rogério</li><li>Levi</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
+    <footer>
+        <p>&copy; 2026 Acroarte. Todos os direitos reservados.</p>
+    </footer>
 
-Assim que você me disser o que precisa mudar, eu reescrevo o código atualizado para você!
+</body>
+</html>
